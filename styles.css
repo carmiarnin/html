@@ -1,0 +1,130 @@
+
+body{
+	background-color:#fffcf5;
+	direction: rtl;
+	font-family: alef;
+	margin:0;
+}
+
+.topnav {
+  direction: rtl;
+    background-color: #d6d5d0;
+    overflow: hidden;
+    display: flex;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #fffcf5;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #edbe77;
+  color: white;
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  direction:ltr;
+  margin-left:5%;
+  margin-right:5%;
+  margin-top: 1%;
+  margin-bottom:10%;
+}
+
+.profile-pic {
+  max-width: 35%;
+	border-radius:50%;
+	margin-right:5%;
+	margin-top:3%;
+	margin-bottom:1%;
+}
+
+.text {
+  padding-left: 3%;
+  direction:rtl;
+  max-width:50%;
+}
+
+.gallery-image{
+	max-width: 100%;
+}
+
+div.gallery:hover {
+  opacity:60%
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-size: 20;
+}
+
+.row{
+	display: flex;
+    flex-wrap: wrap;
+}
+
+.col3{
+	flex: 20%;
+	margin-right:0%;
+	margin-left:0.5%;
+}
+
+.page-wrapper-projects{
+	margin-left:10%;
+	margin-right:10%;
+}
+
+.page-wrapper{
+	margin-left:2%;
+	margin-right:2%;
+}
+
+.col5{
+	flex: 15%;
+	margin-right: 0.5%;
+	margin-left:0.5%;
+	margin-top:5%;
+	align-self:center; 
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  direction:ltr;
+  margin-left:5%;
+  margin-right:5%;
+  margin-top: 8%;
+  margin-bottom:5%;
+}
+
+.bottom-bar {
+  background-color: #d6d5d0;
+	color: white;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+
